@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <main class="container">
+      <form>
+        <input type="text" placeholder="San Francisco" autofocus />
+        <button>Submit</button>
+      </form>
+      <div class="city-data">
+        <h1></h1>
+        <span></span>
+      </div>
+      <div class="weather-data">
+        <div class="img-container">
+          <figure>
+            <img src="./sun.png" alt="" />
+            <figcaption class="weather-description"></figcaption>
+          </figure>
+        </div>
+        <p></p>
+        <span class="uni-code" hidden>&#xb0;</span>
+      </div>
+      <ul>
+        <li>
+          <span class="wind extra-info"></span>
+          <span class="">Wind</span>
+        </li>
+        <li>
+          <span class="humidity extra-info"></span>
+          <span class="">Humidity</span>
+        </li>
+        <li>
+          <span class="max-temp extra-info"></span>
+          <span class="">Maximum</span>
+        </li>
+      </ul>
+      <footer>
+        <ul>
+          <li>
+            <a href=https://www.linkedin.com/in/aneudy-adames-600441158/" target='_blank'><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/aneudya4" target='_blank'><i class="fab fa-github-square"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+    <script
+    src="https://kit.fontawesome.com/4fbeabb42e.js"
+    crossorigin="anonymous"
+  ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
